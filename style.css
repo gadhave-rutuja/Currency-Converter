@@ -1,0 +1,46 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background: rgb(12, 17, 162);
+}
+#box{
+    background: #fff;
+    width: 500px;
+    margin: auto;
+    margin-top: 50vh;
+    padding: 15px;
+    border: 8px solid lightgray;
+    border-radius: 7px;
+    border-bottom-color: paleturquoise;
+    /* From https://css.glass */
+    background: rgba( 255, 255, 255, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+input,button{
+    padding: 10px;
+    outline: none;
+}
+button{
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 149, 0);
+    border: none;
+    transition: 1s;
+}
+#result{
+    font-weight: bold;
+    font-size: 17px;
+}
